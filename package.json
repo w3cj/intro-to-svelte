@@ -1,0 +1,16 @@
+{
+  "name": "intro-to-svelte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "README.md",
+  "scripts": {
+    "start": "reveal-md -w --theme night --highlightTheme hybrid --port 1337 --css styles.css README.md",
+    "build": "reveal-md --theme night --highlightTheme hybrid --css styles.css README.md --static dist"
+  },
+  "keywords": [],
+  "author": "w3cj <cj@null.computer>",
+  "license": "MIT",
+  "dependencies": {
+    "reveal-md": "^5.5.1"
+  }
+}
